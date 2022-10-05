@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAAEventHandlerExample</Text>
+    <Description>Some description for RAAEventHandlerExample</Description>
+    <Assembly>RAAEventHandlerExample.dll</Assembly>
+    <FullClassName>RAAEventHandlerExample.Command</FullClassName>
+    <ClientId>9ed96707-4566-42a1-8615-aa2af0fa71e9</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAAEventHandlerExample</Name>
+    <Assembly>RAAEventHandlerExample.dll</Assembly>
+    <FullClassName>RAAEventHandlerExample.App</FullClassName>
+    <ClientId>667481b7-a681-4009-94c8-1d16653994c6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
